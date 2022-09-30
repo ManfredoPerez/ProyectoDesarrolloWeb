@@ -1,3 +1,19 @@
+<?php
+
+if($_SESSION["perfil"] == "Especial"){
+
+  echo '<script>
+
+    window.location = "inicio";
+
+  </script>';
+
+  return;
+
+}
+
+?>
+
 <div class="content-wrapper">
 
   <section class="content-header">
@@ -202,7 +218,7 @@
                             
                             <div class="input-group">
                            
-                              <span class="input-group-addon">Q.</i></span>
+                              <span class="input-group-addon"><i class="ion ion-social-usd"></i></span>
 
                               <input type="text" class="form-control input-lg" id="nuevoTotalVenta" name="nuevoTotalVenta" total="" placeholder="00000" readonly required>
 
