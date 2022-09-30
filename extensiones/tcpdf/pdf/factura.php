@@ -87,7 +87,7 @@ $bloque1 = <<<EOF
 					Teléfono: 300 786 52 49
 					
 					<br>
-					ventas@proyectoweb.com
+					ventas@contacto.com
 
 				</div>
 				

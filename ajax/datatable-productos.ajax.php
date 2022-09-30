@@ -115,3 +115,4 @@ ACTIVAR TABLA DE PRODUCTOS
 =============================================*/ 
 $activarProductos = new TablaProductos();
 $activarProductos -> mostrarTablaProductos();
+

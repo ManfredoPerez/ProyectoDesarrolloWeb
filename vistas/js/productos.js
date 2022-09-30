@@ -296,3 +296,4 @@ $(".tablaProductos tbody").on("click", "button.btnEliminarProducto", function(){
 	})
 
 })
+	

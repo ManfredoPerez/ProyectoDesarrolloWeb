@@ -508,3 +508,6 @@ MODAL EDITAR PRODUCTO
   $eliminarProducto -> ctrEliminarProducto();
 
 ?>      
+
+
+

@@ -1,43 +1,57 @@
-<div id="back"></div>
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="vistas/css/style.css">
 
-<div class="login-box">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<img class="wave1" src="vistas/img/plantilla/wave.png">
+
+<div class="container1">
   
-  <div class="login-logo">
+  <div class="img1">
 
-    <img src="vistas/img/plantilla/login.png" class="img-responsive" style="padding:30px 100px 0px 100px">
+    <img src="vistas/img/plantilla/medicine.svg">
 
-  </div>
+  </div> 
 
-  <div class="login-box-body">
-
-    <p class="login-box-msg">Ingresar al sistema</p>
+  <div class="login-content1">
 
     <form method="post">
 
-      <div class="form-group has-feedback">
+      <img src="vistas/img/plantilla/avatar.svg">
 
-        <input type="text" class="form-control" placeholder="Usuario" name="ingUsuario" required>
-        <span class="glyphicon glyphicon-user form-control-feedback"></span>
+      <h2 class="title1">Bienvenidos</h2>
 
-      </div>
+              <div class="input-div1 one">
+                 <div class="i">
+                    <i class="fas fa-user"></i>
+                 </div>
+                 <div class="div">
+                    <h5>Usuario</h5>
+                    <input type="text" class="input" name="ingUsuario" required>
+                   
+                 </div>
+              </div>
 
-      <div class="form-group has-feedback">
 
-        <input type="password" class="form-control" placeholder="Contraseña" name="ingPassword" required>
-        <span class="glyphicon glyphicon-lock form-control-feedback"></span>
-      
-      </div>
-
-      <div class="row">
-       
-        <div class="col-xs-4">
-
-          <button type="submit" class="btn btn-primary btn-block btn-flat">Ingresar</button>
-        
-        </div>
-
-      </div>
-
+              <div class="input-div1 pass">
+                 <div class="i"> 
+                    <i class="fas fa-lock"></i>
+                 </div>
+                 <div class="div">
+                    <h5>Contraseña</h5>
+                    <input type="password" class="input" name="ingPassword" required>
+                    
+                 </div>
+              </div>
+            
+              <input type="submit" class="btn1" value="Ingresar">
       <?php
 
         $login = new ControladorUsuarios();
@@ -50,3 +64,7 @@
   </div>
 
 </div>
+
+<script type="text/javascript" src="vistas/js/main.js"></script>
+</body>
+</html>

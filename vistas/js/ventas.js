@@ -866,3 +866,7 @@ $(".daterangepicker.opensleft .ranges li").on("click", function(){
 	}
 
 })
+
+
+
+

@@ -4,7 +4,7 @@
     
     <h1>
       
-      Tablero
+      Pagina Principal
       
       <small>Panel de Control</small>
     
@@ -14,7 +14,7 @@
       
       <li><a href="inicio"><i class="fa fa-dashboard"></i> Inicio</a></li>
       
-      <li class="active">Tablero</li>
+      <li class="active">Pagina Principal</li>
     
     </ol>
 

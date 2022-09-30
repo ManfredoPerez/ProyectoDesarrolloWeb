@@ -33,7 +33,7 @@ $totalProductos = count($productos);
     
     <div class="icon">
       
-      <i >Q</i>
+      <i>Q</i>
     
     </div>
     

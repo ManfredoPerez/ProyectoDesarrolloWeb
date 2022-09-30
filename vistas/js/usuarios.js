@@ -221,3 +221,7 @@ $(".tablas").on("click", ".btnEliminarUsuario", function(){
   })
 
 })
+
+
+
+
